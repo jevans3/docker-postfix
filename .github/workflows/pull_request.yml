@@ -49,7 +49,7 @@ jobs:
         run: ./helm/tests.sh
 
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v1
+        uses: docker/setup-qemu-action@v2
 
       - name: Set up Docker Buildx
         id: buildx
